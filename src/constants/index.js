@@ -20,6 +20,8 @@ import {
     tesla,
     shopify,
     carrent,
+    blog,
+    news,
     jobit,
     tripguide,
     threejs,
@@ -46,12 +48,17 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
+    },
+    ,
+    {
+      title: "Competitive Programmer",
+      icon: web,
     },
   ];
   
@@ -190,46 +197,51 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Personal Blog Website",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "A platform for sharing insightful articles and ideas on diverse topics, encouraging community engagement and knowledge exchange",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "postgres",
           color: "green-text-gradient",
         },
+        {
+          name: "prisma",
+          color: "pink-text-gradient",
+        },
+        ,
         {
           name: "tailwind",
-          color: "pink-text-gradient",
+          color: "blue-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: blog,
+      source_code_link: "https://github.com/sherlock457/medium",
     },
     {
-      name: "Job IT",
+      name: "News App",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "An intuitive news app that delivers the latest headlines and stories, allowing users to easily search and explore articles on a wide range of topics from reliable sources",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: news,
+      source_code_link: "https://github.com/sherlock457/newsapp",
     },
     {
       name: "Trip Guide",

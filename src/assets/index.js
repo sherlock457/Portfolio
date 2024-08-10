@@ -27,6 +27,8 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
+import blog from "./blog.png";
+import news from "./news.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -57,6 +59,8 @@ export {
   starbucks,
   tesla,
   carrent,
+  blog,
+  news,
   jobit,
   tripguide,
 };
