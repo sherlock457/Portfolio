@@ -28,6 +28,7 @@ import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
 import blog from "./blog.png";
+import leetcode from "./leetcode.png";
 import news from "./news.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -60,6 +61,7 @@ export {
   tesla,
   carrent,
   blog,
+  leetcode,
   news,
   jobit,
   tripguide,

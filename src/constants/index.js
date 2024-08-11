@@ -21,6 +21,7 @@ import {
     shopify,
     carrent,
     blog,
+    leetcode,
     news,
     jobit,
     tripguide,
@@ -244,25 +245,25 @@ import {
       source_code_link: "https://github.com/sherlock457/newsapp",
     },
     {
-      name: "Trip Guide",
+      name: "Coding Companion",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "This project allows users to input topic names and receive a list of relevant LeetCode problems, streamlining the search process for coding practice and interview preparation",
       tags: [
         {
-          name: "nextjs",
+          name: "flask",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "selenium",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "tf-idf",
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: leetcode,
+      source_code_link: "https://github.com/sherlock457/tf_idf_implementation",
     },
   ];
   
